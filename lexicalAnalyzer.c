@@ -44,6 +44,9 @@ int main()
             case '=':
                 printf("=");
                 break;
+            case ' ':
+                printf(" ");
+                break;
             default:
                 printf("Error");
             }
