@@ -11,7 +11,7 @@ int main()
     {
         if (string[i] >= 'A' && string[i] <= 'Z' || string[i] >= 'a' && string[i] <= 'z')
         {
-            if (string[i + 1] == '+' || string[i + 1] == '-' || string[i + 1] == '*' || string[i + 1] == '/' || string[i + 1] == '=' || string[i + 1] == '\0')
+            if (string[i + 1] == '+' || string[i + 1] == '-' || string[i + 1] == '*' || string[i + 1] == '/' || string[i + 1] == '=' || string[i + 1] == '\0' || string[i+1] == '\n' || string[i+1] == ' ')
             {
                 printf("id%d", n);
                 n++;
